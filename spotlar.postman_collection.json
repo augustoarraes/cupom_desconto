@@ -1,0 +1,184 @@
+{
+	"info": {
+		"_postman_id": "fa6864c0-105a-43d6-ad74-221a437c7bc1",
+		"name": "spotlar",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "3429051"
+	},
+	"item": [
+		{
+			"name": "http://localhost:5000/v1/cupomdesconto",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"codigo\": \"spot10\",\n    \"data_expiracao\": \"07-07-2024 23:59:00\",\n    \"max_utilizacao\": 50,\n    \"min_compra\": 200,\n    \"tp_desconto\": \"fixo\",\n    \"qtd_desconto\": 10,\n    \"is_publico\": true,\n    \"is_primeira_compra\": false\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:5000/v1/cupomdesconto",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "5000",
+					"path": [
+						"v1",
+						"cupomdesconto"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:5000/v1/cupomdesconto",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"codigo\": \"spot10cliente\",\n    \"data_expiracao\": \"07-07-2024 23:59:00\",\n    \"max_utilizacao\": 50,\n    \"min_compra\": 200,\n    \"tp_desconto\": \"fixo\",\n    \"qtd_desconto\": 10,\n    \"is_publico\": true,\n    \"is_primeira_compra\": true\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:5000/v1/cupomdesconto",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "5000",
+					"path": [
+						"v1",
+						"cupomdesconto"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:5000/v1/cupomdesconto",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"codigo\": \"spot30\",\n    \"data_expiracao\": \"07-07-2024 23:59:00\",\n    \"max_utilizacao\": 50,\n    \"min_compra\": 200,\n    \"tp_desconto\": \"percentual\",\n    \"qtd_desconto\": 30,\n    \"is_publico\": false,\n    \"is_primeira_compra\": false\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:5000/v1/cupomdesconto",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "5000",
+					"path": [
+						"v1",
+						"cupomdesconto"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:5000/v1/cupomdesconto",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"id_compra\": 50,\n    \"valor_compra\": 1000,\n    \"codigo_cupom\": \"spot30\",\n    \"primeira_commpra\": false\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:5000/v1/cupomdesconto",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "5000",
+					"path": [
+						"v1",
+						"cupomdesconto"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:5000/v1/cupomdesconto",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"id_compra\": 50,\n    \"valor_compra\": 1000,\n    \"codigo_cupom\": \"spot10\",\n    \"primeira_commpra\": false\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:5000/v1/cupomdesconto",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "5000",
+					"path": [
+						"v1",
+						"cupomdesconto"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:5000/v1/cupomdesconto",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"id_compra\": 50,\n    \"valor_compra\": 1000,\n    \"codigo_cupom\": \"spot10\",\n    \"primeira_commpra\": false\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:5000/v1/cupomdesconto",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "5000",
+					"path": [
+						"v1",
+						"cupomdesconto"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
