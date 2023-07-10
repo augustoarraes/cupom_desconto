@@ -13,5 +13,5 @@ CMD ["flask","run","-h","0.0.0.0","-p","5000"]
 
 
 # Run Container:
-# docker build -t spotlar.cupomdescont:0.1 .
-# docker run --name spotlar.cupomdescont --add-host=host.docker.internal:172.17.0.1 -p 5000:5000 -d spotlar.cupomdescont:0.1
+# docker build -t spotlar.cupomdesconto:0.1 .
+# docker run --name spotlar.cupomdesconto --add-host=host.docker.internal:172.17.0.1 -p 5000:5000 -d spotlar.cupomdesconto:0.1

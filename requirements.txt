@@ -10,6 +10,6 @@ requests
 setuptools
 flasgger
 
-Flask-Testing #flask-unittest #pytest
+Flask-Testing
 coverage
 pytest-cov

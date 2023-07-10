@@ -1,10 +1,8 @@
 
-import requests, json, os, datetime, jwt, uuid, pytz
-from sqlalchemy import or_, and_, literal
+import requests, json, os, datetime
 from sqlalchemy.ext.declarative import declarative_base
 from model import db, CupomDescontoModel, LogCupomDescontoModel
 from flask import Response
-#from enum import CarroSituacao
 
 
 
