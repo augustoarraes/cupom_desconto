@@ -1,0 +1,15 @@
+Flask
+Flask-RESTful
+Flask-SQLAlchemy
+flask-cors
+psycopg2-binary
+python-dotenv
+PyJWT
+requests
+
+setuptools
+flasgger
+
+Flask-Testing #flask-unittest #pytest
+coverage
+pytest-cov

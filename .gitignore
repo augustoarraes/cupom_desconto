@@ -1,0 +1,6 @@
+__pycache__
+.DS_store
+env/
+.pytest_cache
+haproxy/
+.coverage

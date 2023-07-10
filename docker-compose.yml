@@ -1,0 +1,36 @@
+version: '3.8'
+
+services:
+  spotlar:
+    build: .
+    environment:
+      - FLASK_APP=app.py
+      - FLASK_RUN_HOST=0.0.0.0
+    ports:
+      - 3000:3000
+    # volumes:
+    #  - .:/app
+    networks:
+      - spotlar-network
+  db:
+    image: postgres:13-alpine
+    ports:
+      - 5432:5432
+    volumes:
+      - ./dump-sample.sql:/docker-entrypoint-initdb.d/dump-sample.sql
+    environment:
+      - POSTGRES_USER=postgres
+      - POSTGRES_PASSWORD=q7963q
+      - POSTGRES_DB=SPOTLARDB
+    networks:
+      - spotlar-network
+
+volumes:
+  postgres_data:
+
+networks: 
+  spotlar-network:
+    driver: bridge
+
+
+# docker-compose up -d
