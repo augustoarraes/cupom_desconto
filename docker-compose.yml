@@ -19,8 +19,8 @@ services:
     volumes:
       - ./dump-sample.sql:/docker-entrypoint-initdb.d/dump-sample.sql
     environment:
-      - POSTGRES_USER=postgres
-      - POSTGRES_PASSWORD=q7963q
+      - POSTGRES_USER=
+      - POSTGRES_PASSWORD=
       - POSTGRES_DB=SPOTLARDB
     networks:
       - spotlar-network
