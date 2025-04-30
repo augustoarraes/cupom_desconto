@@ -11,3 +11,8 @@ Importe a coleção de chamadas `postman_collection.json` REST no seu Postman.
 - 3: Testes Unitários: testando com Docker `docker exec -it spotlar_spotlar_1 py.test --cov=app`. Ou sem docker, num virtualenv `py.test --cov=app`.
 
 ** Para executar o projeto sem Docker é necessário configurar um ambiente virtual para a aplicação e em `init.py` apontar o banco para `localhost`.
+
+
+## Contato
+
+[Augusto Arraes](http://linktr.ee/a.arraes)
